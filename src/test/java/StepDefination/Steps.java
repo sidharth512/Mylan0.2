@@ -48,6 +48,7 @@ public class Steps extends BaseClass {
 
         }
         driver.manage().window().maximize();
+        driver.manage().timeouts().pageLoadTimeout(60,TimeUnit.SECONDS);
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 
 
