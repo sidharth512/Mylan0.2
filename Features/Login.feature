@@ -10,7 +10,7 @@ Background:
     Then Page Title should be "actiTIME - Enter Time-Track"
     When click on log out Link
     Then Page Title should be "actiTIME - Login"
-    And close browser
+
 
   Scenario Outline: Login Data Validation
 
@@ -19,7 +19,7 @@ Background:
       Then Page Title should be "actiTIME -  Enter Time-Track"
       When click on log out Link
       Then Page Title should be "actiTIME - Login"
-      And close browser
+
 
       Examples:
         |email|password|

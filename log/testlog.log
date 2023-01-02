@@ -151,3 +151,41 @@
 2023-01-02 18:55:13,985 - Mylan0.2 -INFO - ******** click On logoutButton ********
 2023-01-02 18:55:43,213 - Mylan0.2 -INFO - ******* Login  passed******
 2023-01-02 18:55:46,227 - Mylan0.2 -INFO - ******** closing the browser  ********
+2023-01-02 19:47:02,395 - Mylan0.2 -INFO - ********* Lunching Browser *********
+2023-01-02 19:47:13,719 - Mylan0.2 -INFO - ******** verifying Dashboad *******
+2023-01-02 19:47:17,871 - Mylan0.2 -INFO - ******** Adding customer details *********
+2023-01-02 19:47:21,276 - Mylan0.2 -INFO - ********* Lunching Browser *********
+2023-01-02 19:47:21,280 - Mylan0.2 -INFO - ******* Launching URL *******
+2023-01-02 19:47:38,096 - Mylan0.2 -INFO - ******* Providing the user email and password *******
+2023-01-02 19:47:38,465 - Mylan0.2 -INFO - ******* started Login  ******
+2023-01-02 19:47:45,028 - Mylan0.2 -INFO - ******* Login  passed******
+2023-01-02 19:47:48,036 - Mylan0.2 -INFO - ******** click On logoutButton ********
+2023-01-02 19:48:06,576 - Mylan0.2 -INFO - ******* Login  passed******
+2023-01-02 19:48:09,580 - Mylan0.2 -INFO - ******** closing the browser  ********
+2023-01-02 21:44:56,192 - Mylan0.2 -INFO - ********* Lunching Browser *********
+2023-01-02 21:45:08,666 - Mylan0.2 -INFO - ******** verifying Dashboad *******
+2023-01-02 21:45:14,811 - Mylan0.2 -INFO - ******** Adding customer details *********
+2023-01-02 21:45:16,597 - Mylan0.2 -INFO - ********** Saving Customer Data ************
+2023-01-02 21:45:23,233 - Mylan0.2 -INFO - ********* Verifying Customer is Added ********
+2023-01-02 21:45:26,086 - Mylan0.2 -INFO - ********* Lunching Browser *********
+2023-01-02 21:45:26,086 - Mylan0.2 -INFO - ******* Launching URL *******
+2023-01-02 21:45:46,699 - Mylan0.2 -INFO - ******* Providing the user email and password *******
+2023-01-02 21:45:47,147 - Mylan0.2 -INFO - ******* started Login  ******
+2023-01-02 21:45:54,952 - Mylan0.2 -INFO - ******* Login  passed******
+2023-01-02 21:45:57,960 - Mylan0.2 -INFO - ******** click On logoutButton ********
+2023-01-02 21:46:06,276 - Mylan0.2 -INFO - ******* Login  passed******
+2023-01-02 21:48:55,931 - Mylan0.2 -INFO - ********* Lunching Browser *********
+2023-01-02 21:48:56,091 - Mylan0.2 -INFO - ******* Launching URL *******
+2023-01-02 21:49:12,410 - Mylan0.2 -INFO - ******* Providing the user email and password *******
+2023-01-02 21:49:12,834 - Mylan0.2 -INFO - ******* started Login  ******
+2023-01-02 21:49:20,273 - Mylan0.2 -INFO - ******* Login  passed******
+2023-01-02 21:49:23,281 - Mylan0.2 -INFO - ******** click On logoutButton ********
+2023-01-02 21:49:29,195 - Mylan0.2 -INFO - ******* Login  passed******
+2023-01-02 21:51:03,871 - Mylan0.2 -INFO - ********* Lunching Browser *********
+2023-01-02 21:51:03,879 - Mylan0.2 -INFO - ******* Launching URL *******
+2023-01-02 21:51:42,040 - Mylan0.2 -INFO - ******* Providing the user email and password *******
+2023-01-02 21:51:42,424 - Mylan0.2 -INFO - ******* started Login  ******
+2023-01-02 21:51:52,559 - Mylan0.2 -INFO - ******* Login  passed******
+2023-01-02 21:51:55,576 - Mylan0.2 -INFO - ******** click On logoutButton ********
+2023-01-02 21:52:00,943 - Mylan0.2 -INFO - ******* Login  passed******
+2023-01-02 21:52:03,946 - Mylan0.2 -INFO - ******** closing the browser  ********

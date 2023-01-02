@@ -8,6 +8,7 @@ import io.cucumber.java.en.*;
 import io.cucumber.java.en.When;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
+import io.cucumber.java.After;
 import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -56,6 +57,12 @@ public class Steps extends BaseClass {
 
 
     }
+    @After
+    public void close_browser() {
+        logger.info("******** closing the browser  ********");
+        driver.close();
+
+    }
 
 
 
@@ -65,7 +72,7 @@ public class Steps extends BaseClass {
 
 
         logger.info("********* Lunching Browser *********");
-        lp = new LoginPage(driver);
+
 
     }
 
@@ -79,6 +86,7 @@ public class Steps extends BaseClass {
     @When("User enters Email as {string} and Password as {string}")
     public void user_enters_email_as_and_password_as(String email, String password) {
         logger.info("******* Providing the user email and password *******");
+        lp = new LoginPage(driver);
         lp.SetUserName(email);
         lp.SetPwd(password);
     }
@@ -115,12 +123,7 @@ public class Steps extends BaseClass {
     }
 
 
-    @Then("close browser")
-    public void close_browser() {
-        logger.info("******** closing the browser  ********");
 
-        driver.close();
-    }
 
     //stepDefination for nopcommerce WebBrowser
 

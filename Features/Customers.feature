@@ -14,7 +14,7 @@ Feature: Add new Customer
     When user give the customer info
     And click on Save button
     Then User can view confirmation message "The new customer has been added successfully"
-    And close browser
+
 
 @sanity
 Scenario: Search Custmor by EmailID
@@ -24,7 +24,7 @@ Scenario: Search Custmor by EmailID
   And Enter customer EmailID
   When click on Search Button
   Then User should found Email in the search table
-  And close browser
+
 @sanity
   Scenario: Search Customer By FirstName And LastName
     When User click on Customers menu
@@ -33,5 +33,5 @@ Scenario: Search Custmor by EmailID
     And Enter Customer LastName
     When click on Search Button
     Then User should found FirstName and LastName in the search table
-    And close browser
+
 

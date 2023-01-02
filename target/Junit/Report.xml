@@ -1,38 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="106.941">
-    <testcase classname="Add new Customer" name="Adding of new Customer" time="31.977">
-        <failure message="" type="java.lang.AssertionError"><![CDATA[Given User Launch Chrome Browser............................................passed
-When User Opens the URL "https://admin-demo.nopcommerce.com/login"..........passed
-And Enter the Email as "admin@yourstore.com" and Password as "admin"........passed
-And Click on Login button...................................................passed
-Then User can view Dashboad.................................................passed
-When User click on Customers menu...........................................passed
-And click on customer menu tab..............................................passed
-And click on Add new button.................................................passed
-Then User can view Add new customer page....................................passed
-When user give the customer info............................................passed
-And click on Save button....................................................passed
-Then User can view confirmation message "The new customer has been added successfully".failed
-And close browser...........................................................skipped
-
-StackTrace:
-java.lang.AssertionError
-	at org.junit.Assert.fail(Assert.java:87)
-	at org.junit.Assert.assertTrue(Assert.java:42)
-	at org.junit.Assert.assertTrue(Assert.java:53)
-	at StepDefination.Steps.user_can_view_confirmation_message(Steps.java:205)
-	at ✽.User can view confirmation message "The new customer has been added successfully"(file:///C:/Users/User%201/projects/Mylan0.2/./Features/Customers.feature:16)
-]]></failure>
-    </testcase>
-    <testcase classname="login" name="Successfull login with Valid Credentails" time="74.649">
-        <system-out><![CDATA[Given User Launch Chrome Browser............................................passed
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="63.921">
+    <testcase classname="login" name="Successfull login with Valid Credentails" time="63.503">
+        <system-out>
+            <![CDATA[Given User Launch Chrome Browser............................................passed
 When User opens URL "https://demo.actitime.com".............................passed
 And User enters Email as "admin" and Password as "manager"..................passed
 And Click on Login..........................................................passed
 Then Page Title should be "actiTIME - Enter Time-Track".....................passed
 When click on log out Link..................................................passed
 Then Page Title should be "actiTIME - Login"................................passed
-And close browser...........................................................passed
-]]></system-out>
+]]>
+        </system-out>
     </testcase>
 </testsuite>
