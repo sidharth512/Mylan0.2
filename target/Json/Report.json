@@ -1,0 +1,398 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 29021100,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "User Launch Chrome Browser",
+            "match": {
+              "location": "StepDefination.Steps.user_launch_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3790238200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User Opens the URL \"https://admin-demo.nopcommerce.com/login\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://admin-demo.nopcommerce.com/login\"",
+                  "offset": 19
+                }
+              ],
+              "location": "StepDefination.Steps.user_opens_the_url(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 290819700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Enter the Email as \"admin@yourstore.com\" and Password as \"admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin@yourstore.com\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"admin\"",
+                  "offset": 57
+                }
+              ],
+              "location": "StepDefination.Steps.enter_the_email_as_and_password_as(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9199373100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click on Login button",
+            "match": {
+              "location": "StepDefination.Steps.click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 24014700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User can view Dashboad",
+            "match": {
+              "location": "StepDefination.Steps.user_can_view_dashboad()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-01-02T13:23:59.750Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2391722500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefination.Steps.serup()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "Adding of new Customer",
+        "description": "",
+        "id": "add-new-customer;adding-of-new-customer",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 102083100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User click on Customers menu",
+            "match": {
+              "location": "StepDefination.Steps.user_click_on_customers_menu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2983132100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "click on customer menu tab",
+            "match": {
+              "location": "StepDefination.Steps.click_on_customer_menu_tab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4737332200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "click on Add new button",
+            "match": {
+              "location": "StepDefination.Steps.click_on_add_new_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 35026700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User can view Add new customer page",
+            "match": {
+              "location": "StepDefination.Steps.user_can_view_add_new_customer_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1418003100,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user give the customer info",
+            "match": {
+              "location": "StepDefination.Steps.user_give_the_customer_info()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6598695400,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "click on Save button",
+            "match": {
+              "location": "StepDefination.Steps.click_on_save_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:87)\r\n\tat org.junit.Assert.assertTrue(Assert.java:42)\r\n\tat org.junit.Assert.assertTrue(Assert.java:53)\r\n\tat StepDefination.Steps.user_can_view_confirmation_message(Steps.java:205)\r\n\tat ✽.User can view confirmation message \"The new customer has been added successfully\"(file:///C:/Users/User%201/projects/Mylan0.2/./Features/Customers.feature:16)\r\n",
+              "duration": 229145700,
+              "status": "failed"
+            },
+            "line": 16,
+            "name": "User can view confirmation message \"The new customer has been added successfully\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"The new customer has been added successfully\"",
+                  "offset": 35
+                }
+              ],
+              "location": "StepDefination.Steps.user_can_view_confirmation_message(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "close browser",
+            "match": {
+              "location": "StepDefination.Steps.close_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Add new Customer",
+    "description": "",
+    "id": "add-new-customer",
+    "keyword": "Feature",
+    "uri": "file:Features/Customers.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2004300,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "User Launch Chrome Browser",
+            "match": {
+              "location": "StepDefination.Steps.user_launch_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 25237509200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User opens URL \"https://demo.actitime.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://demo.actitime.com\"",
+                  "offset": 15
+                }
+              ],
+              "location": "StepDefination.Steps.user_opens_url(java.lang.String)"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-01-02T13:24:31.760Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1656502300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefination.Steps.serup()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Successfull login with Valid Credentails",
+        "description": "",
+        "id": "login;successfull-login-with-valid-credentails",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 333236700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enters Email as \"admin\" and Password as \"manager\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"manager\"",
+                  "offset": 45
+                }
+              ],
+              "location": "StepDefination.Steps.user_enters_email_as_and_password_as(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5067783300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Click on Login",
+            "match": {
+              "location": "StepDefination.Steps.click_on_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9912484400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Page Title should be \"actiTIME - Enter Time-Track\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"actiTIME - Enter Time-Track\"",
+                  "offset": 21
+                }
+              ],
+              "location": "StepDefination.Steps.page_title_should_be(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 29181049600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "click on log out Link",
+            "match": {
+              "location": "StepDefination.Steps.click_on_log_out_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3059917100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Page Title should be \"actiTIME - Login\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"actiTIME - Login\"",
+                  "offset": 21
+                }
+              ],
+              "location": "StepDefination.Steps.page_title_should_be(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 181935000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "close browser",
+            "match": {
+              "location": "StepDefination.Steps.close_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "file:Features/Login.feature",
+    "tags": []
+  }
+]
